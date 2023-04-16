@@ -13,7 +13,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 
         return (
         <div className="fixed w-full h-20 shadow-xl z-[100]">
-            <div className="flex justify-between items-center w-full px-2 2xl:px-16 pt-1 ">
+            <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 pt-1 ">
             <Image src="/../public/assets/logo.png" alt="Frédéric Gaufichon" width="180" height="90"/>
                 <div>
                     <ul className="hidden md:flex">
