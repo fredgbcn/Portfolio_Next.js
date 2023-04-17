@@ -108,7 +108,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
                   rel='noreferrer'
                 >
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaLinkedinIn />
+                    <FaLinkedinIn fill="#6C47B2"/>
                   </div>
                 </a>
                 <a
@@ -117,7 +117,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
                   rel='noreferrer'
                 >
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaGithub />
+                    <FaGithub fill="#6C47B2"/>
                   </div>
                 </a>
                 <Link href='/#contact'>
@@ -125,7 +125,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
-                    <AiOutlineMail />
+                    <AiOutlineMail fill="#6C47B2"/>
                   </div>
                 </Link>
                 <Link href='/resume'>
@@ -133,7 +133,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
-                    <BsFillPersonLinesFill />
+                    <BsFillPersonLinesFill fill="#6C47B2" />
                   </div>
                 </Link>
                             
