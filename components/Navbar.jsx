@@ -103,7 +103,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -112,7 +112,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/fredgbcn'
                   target='_blank'
                   rel='noreferrer'
                 >
