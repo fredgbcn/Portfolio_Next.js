@@ -8,18 +8,16 @@ import Skill from './Skill'
                     <p className='uppercase text-xl tracking-widest text-[#5651e5]'>Skills</p>
                     <h2 className='py-4'>What I Can Do</h2>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-
-                        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-                            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                                <div className="m-auto">
-                                    <Image src="/skills/React-icon.svg" alt="react"layout="responsive" width='64' height='64'/>
-                                </div>
-                                <div className="flex flex-col items-center justify-center">
-                                    <h3>REACT</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <Skill props={'React-icon.svg'} />
+                        <Skill name={"HTML 5"} icon={"HTML 5.svg"} />
+                        <Skill name={"REACT"} icon={"React-icon.svg"} />
+                        <Skill name={"CSS 3"} icon={"CSS3.svg"} />
+                        <Skill name={"SASS"} icon={"Sass.svg"} />
+                        <Skill name={"JAVASCRIPT"} icon={"JS.svg"} />
+                        <Skill name={"MONGODB"} icon={"Mongodb.svg"} />
+                        <Skill name={"NODE.JS"} icon={"Node.svg"} />
+                        <Skill name={"TAILWIND"} icon={"Tailwind.svg"} />
+                        <Skill name={"TYPESCRIPT"} icon={"Typescript.svg"} />
+                        <Skill name={"WORDPRESS"} icon={"Wordpress.svg"} />
                     </div>                  
                 </div>
             </div>
