@@ -5,6 +5,8 @@ import Navbar from '@/components/Navbar'
 import Main from '../components/Main.jsx'
 import About from '@/components/About.jsx'
 import Skills from '@/components/Skills.jsx'
+import Projects from '../components/Projects.jsx'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -20,6 +22,7 @@ export default function Home() {
       <Main/>
       <About />
       <Skills />
+      <Projects />
     </>
   )
 }
