@@ -5,6 +5,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {AiOutlineMail} from 'react-icons/ai'
 import Link from "next/link";
 import ContactImg from '/public/assets/contact.png';
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
     const Contact = (props) => {
         return(
             <div id='contact' className='w-full lg:h-screen'>
@@ -66,26 +67,51 @@ import ContactImg from '/public/assets/contact.png';
             </div>
           </div>
              {/* right */}
-        <div>
+        <div className="col-span-3 w-full h-auto">
+        <div className='p-4'>
             <form
                 action="https://getform.io/f/79ecc087-6b08-4aed-9c9f-8228f79d9ced"
                 method="POST"
                 encType='multipart/form-data'>
-                <div>
-                    <label>NAME</label>
-                    <input type="text" name="name" />
+                <div className="grid md:grid-cols-2 gap-4 w-full">
+                    <div className="flex flex-col text-slate-500 text-sm py-2 font-medium">
+                        <label>NAME</label>
+                        <input type="text" name="name" className="my-2 border-2 p-3 flex border-grey-300 rounded-lg"/>
+                    </div>
+                    <div className="flex flex-col text-sm py-2 text-slate-500 font-medium">
+                        <label>PHONE NUMBER</label>
+                        <input type="text" name="phone" className="my-2 border p-3 flex border-grey-300 rounded-lg" />
+                    </div>
                 </div>
-                <div>
-                    <label>PHONE NUMBER</label>
-                    <input type="text" name="phone" />
+                <div className="flex flex-col text-sm py-2 text-slate-500 font-medium">
+                        <label>EMAIL</label>
+                        <input type="text" name="phone" className="my-2 border p-3 flex border-grey-300 rounded-lg"/>
+                    </div>
+                    <div className="flex flex-col text-sm py-2 text-slate-500 font-medium">
+                    <label>SUBJECT</label>
+                    <input type="text" name="phone" className="my-2 border p-3 flex border-grey-300 rounded-lg"/>
                 </div>
-                <button type="submit">
+                <div className="flex flex-col text-sm py-2 text-slate-500 font-medium">
+                        <label>MESSAGE</label>
+                        <input type="text" name="phone" className="my-2 border p-3 flex border-grey-300 rounded-lg"/>
+                </div>
+                <button className='w-full p-4 text-gray-100 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white' type="submit">
                   Send Message
                 </button>
             </form>
         </div>
-
+ </div>
           </div>
+          <div className='flex justify-center py-12'>
+          <Link href='/'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <HiOutlineChevronDoubleUp
+                  className='text-[#5651e5]'
+                  size={30}
+                />
+              </div>
+          </Link>
+        </div>
           </div>
           </div>
         )
