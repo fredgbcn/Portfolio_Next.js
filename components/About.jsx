@@ -4,10 +4,10 @@ import Link from "next/link";
 
     const About = () => {
         return (
-        <div className="w-full md:h-screen p-2 flex items-center py-16">
+        <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
             <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
                 <div className="col-span-2">
-                    <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
+                    <p className='mt-10 uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                     <h2 className='py-4'>Who I am</h2>
                     <p className='py-2 text-gray-600'>// I am not your normal developer</p>
                     <p className='py-2 text-gray-600'>After years of musical career, the aspiration to master more and more the art of communication brought me to web development. I started by creating websites for my artistic projects with CMS like WordPress, then, wanting to improve some aspects I was led to immerse myself in Html5, CSS3 and Javascript languages.</p>

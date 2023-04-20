@@ -10,12 +10,12 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
         return(
             <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+        <p className='mt-10 text-xl tracking-widest uppercase text-[#5651e5]'>
           Contact
         </p>
         <h2 className='py-4'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
-          {/* left */}
+          {/* left side*/}
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
               <div>
@@ -66,8 +66,8 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
               </div>
             </div>
           </div>
-             {/* right */}
-        <div className="col-span-3 w-full h-auto">
+             {/* right side */}
+        <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
         <div className='p-4'>
             <form
                 action="https://getform.io/f/79ecc087-6b08-4aed-9c9f-8228f79d9ced"
@@ -85,15 +85,15 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
                 </div>
                 <div className="flex flex-col text-sm py-2 text-slate-500 font-medium">
                         <label>EMAIL</label>
-                        <input type="text" name="phone" className="my-2 border p-3 flex border-grey-300 rounded-lg"/>
+                        <input type="email" name="mail" className="my-2 border p-3 flex border-grey-300 rounded-lg"/>
                     </div>
                     <div className="flex flex-col text-sm py-2 text-slate-500 font-medium">
                     <label>SUBJECT</label>
-                    <input type="text" name="phone" className="my-2 border p-3 flex border-grey-300 rounded-lg"/>
+                    <input type="text" name="subject" className="my-2 border p-3 flex border-grey-300 rounded-lg"/>
                 </div>
                 <div className="flex flex-col text-sm py-2 text-slate-500 font-medium">
                         <label>MESSAGE</label>
-                        <input type="text" name="phone" className="my-2 border p-3 flex border-grey-300 rounded-lg"/>
+                        <textarea type="text" name="message" rows='10' className="my-2 border p-3 flex border-grey-300 rounded-lg"/>
                 </div>
                 <button className='w-full p-4 text-gray-100 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white' type="submit">
                   Send Message
