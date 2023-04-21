@@ -11,6 +11,7 @@ import Skill from './Skill'
                         <Skill name={"HTML 5"} icon={"HTML 5.svg"} />
                         <Skill name={"JAVASCRIPT"} icon={"JS.svg"} />
                         <Skill name={"REACT"} icon={"React-icon.svg"} />
+                        <Skill name={"NEXT"} icon={"Nextjs-logo.svg"} />
                         <Skill name={"TYPESCRIPT"} icon={"Typescript.svg"} />
                         <Skill name={"MONGODB"} icon={"Mongodb.svg"} />
                         <Skill name={"NODE.JS"} icon={"Node.svg"} />

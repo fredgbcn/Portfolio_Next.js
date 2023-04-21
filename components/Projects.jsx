@@ -7,7 +7,7 @@ import DevisPlus from "../public/assets/Devis-Plus.png"
 import EAH from "../public/assets/E-a-h.png"
 import Tcloc from "../public/assets/tcloc1.png"
 import FlagDB from "../public/assets/Flags1.png"
-
+import Fredgbcn from "../public/assets/Fredgbcn.jpg"
 
     const Projects = () => {
         return(
@@ -25,7 +25,12 @@ import FlagDB from "../public/assets/Flags1.png"
                         <ProjectItem
                             title='CSS Animations Tutorial'
                             backgroundImg={CSS}
-                            projectUrl='/MIM'
+                            projectUrl='/mim'
+                            tech='VUE.JS and CSS Animations'
+                        /> <ProjectItem
+                            title='My First Portfolio'
+                            backgroundImg={Fredgbcn}
+                            projectUrl='/Fredgbcn'
                             tech='VUE.JS and CSS Animations'
                         /><ProjectItem
                             title='Flag Quiz'
