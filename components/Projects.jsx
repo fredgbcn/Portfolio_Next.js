@@ -45,7 +45,7 @@ import Fredgbcn from "../public/assets/Fredgbcn.jpg"
                         /><ProjectItem
                             title='My First Portfolio'
                             backgroundImg={Fredgbcn}
-                            projectUrl='/Fredgbcn'
+                            projectUrl='/portfolio'
                             tech='VUE.JS and CSS Animations'
                         /><ProjectItem
                             title='SEO Audit'

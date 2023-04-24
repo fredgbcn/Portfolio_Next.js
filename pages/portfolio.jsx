@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import EAH from "../public/assets/E-a-h.png"
+import portfolio from "../public/assets/Fredgbcn.jpg"
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,12 +13,12 @@ const property = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={EAH}
+          src={portfolio}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Website fro a German Client</h2>
-          <h3>Wordpress</h3>
+          <h2 className='py-2'>My Firs Portfolio</h2>
+          <h3>Vue.js</h3>
         </div>
       </div>
 
@@ -27,9 +27,16 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          I created this site for a German client who wanted to present his rock band. I was able to create this site with wordpress with all the required features. A video background, cookies, user policies ...          </p>
+          Before creating this portfolio with Next.js and Tailwind, I had produced this one with Vue.js and some CSS animations. I got a little nostalgic when I wanted to get rid of it so I decided to continue sharing it          </p>
           <a
-            href='https://exit-a-head.com/'
+            href='https://github.com/fredgbcn/fredgbcn'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+          </a>
+          <a
+            href='http://fredgbcn.com/'
             target='_blank'
             rel='noreferrer'
           >
@@ -41,10 +48,19 @@ const property = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Wordpress
+                <RiRadioButtonFill className='pr-1' /> Vue.js
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Wordpress Plugins
+                <RiRadioButtonFill className='pr-1' />HTML 5
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> CSS 3 
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Javascript
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Figma
               </p>
             </div>
           </div>
