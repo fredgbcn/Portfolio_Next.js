@@ -35,7 +35,7 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
-                  <a
+                  <Link
                     href='https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-gaufichon-82080891/'
                     target='_blank'
                     rel='noreferrer'
@@ -43,8 +43,8 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn />
                     </div>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href='https://github.com/fredgbcn'
                     target='_blank'
                     rel='noreferrer'
@@ -52,12 +52,12 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaGithub />
                     </div>
-                  </a>
+                  </Link>
 
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
-                  <Link href='/resume'>
+                  <Link href='/#about'>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
                       </div>
