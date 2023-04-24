@@ -28,9 +28,9 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
         return (
         <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : "fixed w-full h-20 z-[100]"}>
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 pt-1 bg-[#ecf0f3]">
-            <Image src="/../public/assets/logo.png" alt="Frédéric Gaufichon" width="180" height="90"/>
+            <Image src="/assets/logo.png" alt="Frédéric Gaufichon" width="180" height="90"/>
                 <div>
-                    <ul className="hidden md:flex">
+                    <ul className="hidden md:flex font-semibold opacity-90">
                         <Link href='/#'>
                             <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
                         </Link>

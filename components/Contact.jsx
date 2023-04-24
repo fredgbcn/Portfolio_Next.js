@@ -36,7 +36,7 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-gaufichon-82080891/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -45,7 +45,7 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/fredgbcn'
                     target='_blank'
                     rel='noreferrer'
                   >

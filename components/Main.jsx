@@ -13,15 +13,15 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
                         <h1 className="py-4 text-gray-700"> A Front-End Web Developer</h1>
                         <p className="py-4 text-gray-600 max-w-[70%] m-auto">I am a Front-End developer with backend experience as well. Specialized in creating exceptional digital experiences, I also have experience in content creation, SEO and design.</p>
                         <div className="flex items-center justify-between max-w-[330px] m-auto py-4"> 
-                        <a href='https://www.linkedin.com/'
+                        <Link href='https://www.linkedin.com/'
                   target='_blank'
                   rel='noreferrer'
                 >
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaLinkedinIn fill="#6C47B2"/>
                   </div>
-                </a>
-                <a
+                </Link>
+                <Link
                   href='https://github.com/fredgbcn'
                   target='_blank'
                   rel='noreferrer'
@@ -29,22 +29,16 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaGithub fill="#6C47B2" />
                   </div>
-                </a>
-                <a href='https://www.linkedin.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
+                </Link>
+                <Link href='/#contact'>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <AiOutlineMail fill="#6C47B2"/>
                   </div>
-                </a><a href='https://www.linkedin.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
+                </Link><Link href='/#about'>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <BsFillPersonLinesFill fill="#6C47B2"/>
                   </div>
-                </a>
+                </Link>
                
                 </div>
                     </div>
