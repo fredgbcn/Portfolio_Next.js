@@ -28,35 +28,35 @@ import Fredgbcn from "../public/assets/Fredgbcn.jpg"
                             projectUrl='/mim'
                             tech='VUE.JS and CSS Animations'
                         /> <ProjectItem
-                            title='My First Portfolio'
-                            backgroundImg={Fredgbcn}
-                            projectUrl='/Fredgbcn'
-                            tech='VUE.JS and CSS Animations'
-                        /><ProjectItem
                             title='Flag Quiz'
                             backgroundImg={FlagQuiz}
                             projectUrl='Flag-quiz'
                             tech='Typescript'
                         /><ProjectItem
-                            title='SEO Audit'
-                            backgroundImg={DevisPlus}
-                            projectUrl='Devis-Plus'
-                            tech='SemRush, Spyfu, Analytics...'
+                            title='Flag Database'
+                            backgroundImg={FlagDB}
+                            projectUrl='Flag-Database'
+                            tech='React.JS'
                         /><ProjectItem
                             title='Rock Band Portfolio'
                             backgroundImg={EAH}
                             projectUrl='EAH'
                             tech='Wordpress'
                         /><ProjectItem
+                            title='My First Portfolio'
+                            backgroundImg={Fredgbcn}
+                            projectUrl='/Fredgbcn'
+                            tech='VUE.JS and CSS Animations'
+                        /><ProjectItem
+                            title='SEO Audit'
+                            backgroundImg={DevisPlus}
+                            projectUrl='Devis-Plus'
+                            tech='SemRush, Spyfu, Analytics...'
+                        /><ProjectItem
                             title='Manager, Writer and SEO'
                             backgroundImg={Tcloc}
                             projectUrl='Tcloc'
                             tech='Semrush, Spyfu, YOAST'
-                        /><ProjectItem
-                            title='Flag Database'
-                            backgroundImg={FlagDB}
-                            projectUrl='Flag-Database'
-                            tech='React.JS'
                         />
                     
                     </div>
