@@ -50,12 +50,12 @@ import Fredgbcn from "../public/assets/Fredgbcn.jpg"
                         /><ProjectItem
                             title='SEO Audit'
                             backgroundImg={DevisPlus}
-                            projectUrl='Devis-Plus'
+                            projectUrl='/devis-plus'
                             tech='SemRush, Spyfu, Analytics...'
                         /><ProjectItem
                             title='Manager, Writer and SEO'
                             backgroundImg={Tcloc}
-                            projectUrl='Tcloc'
+                            projectUrl='tcloc'
                             tech='Semrush, Spyfu, YOAST'
                         />
                     

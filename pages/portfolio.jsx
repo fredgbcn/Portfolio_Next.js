@@ -17,7 +17,7 @@ const property = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>My Firs Portfolio</h2>
+          <h2 className='py-2'>My First Portfolio</h2>
           <h3>Vue.js</h3>
         </div>
       </div>
@@ -27,7 +27,7 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          Before creating this portfolio with Next.js and Tailwind, I had produced this one with Vue.js and some CSS animations. I got a little nostalgic when I wanted to get rid of it so I decided to continue sharing it          </p>
+          Before creating this portfolio with Next.js and Tailwind, I had produced this one with Vue.js and some CSS animations. It is fully responsive and mibile first. I got a little nostalgic when I wanted to get rid of it so I decided to continue sharing it          </p>
           <a
             href='https://github.com/fredgbcn/fredgbcn'
             target='_blank'

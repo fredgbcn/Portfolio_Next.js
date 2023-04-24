@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import africaImg from "../public/assets/africa1.png"
+import tcloc from "../public/assets/tcloc1.png"
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,12 +13,12 @@ const property = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={africaImg}
+          src={tcloc}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Website of an Association From Scratch</h2>
-          <h3>React JS / Node JS / MongoDB</h3>
+          <h2 className='py-2'>Writer and SEO Analyst for Tcloc Madter Website</h2>
+          <h3>SemRush / Spyfu / Analytics / YOAST</h3>
         </div>
       </div>
 
@@ -27,17 +27,10 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          This website should show the dance and humanitarian activities of the association "Africa Begue" and allow the persons in charge to modify the events of the "Stage" part. I created the design with Figma inspired by Senegalese fabrics. For the administrator part, I created a form linked to a Node.js backend that allows the association to manage the events themselves and to store them on MongoDB
-          </p>
+          I participated in the editorial team and the SEO team of the Master Tcloc website.  I wrote several articles in English and corrected many others to make them more relevant from an SEO point of view. I realized a complete SEO audit highlighting the weaknesses of the website and a whole plan of improvement, notably on the definition of the target audience, the organization of the keywords and the editorial calendar.          </p>
+
           <a
-            href='https://github.com/fredgbcn/africa_begue'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-          </a>
-          <a
-            href='http://africabegue.com/'
+            href='https://mastertcloc.unistra.fr/'
             target='_blank'
             rel='noreferrer'
           >
@@ -49,22 +42,19 @@ const property = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> SemRush
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Node JS
+                <RiRadioButtonFill className='pr-1' /> Spyfu
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> NginX, Pm2
+                <RiRadioButtonFill className='pr-1' /> YOAST
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> Wordpress
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> MongoDB
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Figma
+                <RiRadioButtonFill className='pr-1' /> Analytics
               </p>
             </div>
           </div>

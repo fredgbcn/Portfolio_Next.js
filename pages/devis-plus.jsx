@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import africaImg from "../public/assets/africa1.png"
+import DP from "../public/assets/Devis-Plus.png"
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,12 +13,12 @@ const property = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={africaImg}
+          src={DP}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Website of an Association From Scratch</h2>
-          <h3>React JS / Node JS / MongoDB</h3>
+          <h2 className='py-2'>SEO Audit for a French Client</h2>
+          <h3>SemRush / Spyfu / Analytics</h3>
         </div>
       </div>
 
@@ -27,17 +27,10 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          This website should show the dance and humanitarian activities of the association "Africa Begue" and allow the persons in charge to modify the events of the "Stage" part. I created the design with Figma inspired by Senegalese fabrics. For the administrator part, I created a form linked to a Node.js backend that allows the association to manage the events themselves and to store them on MongoDB
-          </p>
+          I did an SEO audit for the website of a company that serves as an intermediary between artisans and individuals. I was able to highlight the problems that could lower their relevance in Google's organic searches, and I proposed a publication plan on keywords where the brand could position itself more easily with an adapted editorial calendar.          </p>
+
           <a
-            href='https://github.com/fredgbcn/africa_begue'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-          </a>
-          <a
-            href='http://africabegue.com/'
+            href='https://www.devis-plus.com/'
             target='_blank'
             rel='noreferrer'
           >
@@ -49,23 +42,18 @@ const property = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> SemRush
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Node JS
+                <RiRadioButtonFill className='pr-1' /> Spyfu
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> NginX, Pm2
+                <RiRadioButtonFill className='pr-1' /> Analytics
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> Google Search Console
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> MongoDB
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Figma
-              </p>
+          
             </div>
           </div>
         </div>
