@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import quiz from "../public/assets/Flags1.png"
+import flagsDb from "../public/assets/flags.png"
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,12 +13,12 @@ const property = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={quiz}
+          src={flagsDb}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Flag Quiz</h2>
-          <h3>TypeScript</h3>
+          <h2 className='py-2'>Flags Database</h2>
+          <h3>React JS</h3>
         </div>
       </div>
 
@@ -27,16 +27,16 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          I created this project to work on two aspects: Typescript and communication with an API. This quiz allowed me to understand the basics of Typescript, to apply them, and also to realize that my knowledge about flags could improve :)          </p>
+          This project allowed me to deepen my knowledge in React. I was able to refine my use of Hooks like useEffect, useState and useParams, as well as statefull and stateless components and the use of axios to make a request to an API.</p>
           <a
-            href='https://github.com/fredgbcn/Flag_quiz_typescript'
+            href='https://github.com/fredgbcn/React_Hooks_Training/tree/main/src'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='http://fredgbcn.com/Project_TS_2/index.html'
+            href='https://fredericg.alwaysdata.net/Flags/'
             target='_blank'
             rel='noreferrer'
           >
@@ -48,18 +48,14 @@ const property = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Typescript
+                <RiRadioButtonFill className='pr-1' /> React
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> React Hooks
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> CSS3
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Fetch Method
-              </p>
-            
             </div>
           </div>
         </div>

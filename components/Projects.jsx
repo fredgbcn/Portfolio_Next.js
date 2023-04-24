@@ -30,12 +30,12 @@ import Fredgbcn from "../public/assets/Fredgbcn.jpg"
                         /> <ProjectItem
                             title='Flag Quiz'
                             backgroundImg={FlagQuiz}
-                            projectUrl='Flag-quiz'
+                            projectUrl='flagQuiz'
                             tech='Typescript'
                         /><ProjectItem
                             title='Flag Database'
                             backgroundImg={FlagDB}
-                            projectUrl='Flag-Database'
+                            projectUrl='flag-database'
                             tech='React.JS'
                         /><ProjectItem
                             title='Rock Band Portfolio'
