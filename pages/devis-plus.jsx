@@ -27,7 +27,7 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          I did an SEO audit for the website of a company that serves as an intermediary between artisans and individuals. I was able to highlight the problems that could lower their relevance in Google's organic searches, and I proposed a publication plan on keywords where the brand could position itself more easily with an adapted editorial calendar.          </p>
+          I did an SEO audit for the website of a company that serves as an intermediary between artisans and individuals. I was able to highlight the problems that could lower their relevance in Google&apos;s organic searches, and I proposed a publication plan on keywords where the brand could position itself more easily with an adapted editorial calendar.          </p>
 
           <a
             href='https://www.devis-plus.com/'

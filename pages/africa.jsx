@@ -27,7 +27,7 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          This website should show the dance and humanitarian activities of the association "Africa Begue" and allow the persons in charge to modify the events of the "Stage" part. I created the design with Figma inspired by Senegalese fabrics. For the administrator part, I created a form linked to a Node.js backend that allows the association to manage the events themselves and to store them on MongoDB
+          This website should show the dance and humanitarian activities of the association Africa Begue and allow the persons in charge to modify the events of the Stage part. I created the design with Figma inspired by Senegalese fabrics. For the administrator part, I created a form linked to a Node.js backend that allows the association to manage the events themselves and to store them on MongoDB
           </p>
           <a
             href='https://github.com/fredgbcn/africa_begue'
