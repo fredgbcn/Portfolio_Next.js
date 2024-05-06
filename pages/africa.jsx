@@ -37,7 +37,7 @@ const property = () => {
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='http://africabegue.com/'
+            href='https://africa-vercel.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
