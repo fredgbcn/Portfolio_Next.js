@@ -22,7 +22,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
                   </div>
                 </Link>
                 <Link
-                  href='https://github.com/fredgbcn'
+                  href='https://github.com/fredgbcn?tab=repositories'
                   target='_blank'
                   rel='noreferrer'
                 >
