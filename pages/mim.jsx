@@ -29,14 +29,14 @@ const property = () => {
           <p>
           I created this site as part of the master CAWEB in Strasbourg. It was about making a playful CSS tutorial with Vue.js. I tried to explain as clearly as possible the basic animations with tabs to see the code if necessary. I added a quiz at the end so that the user can test his knowledge.          </p>
           <a
-            href='https://fredgbcn.space/make_it_move'
+            href='https://github.com/fredgbcn/mim'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://fredgbcn.github.io/mim/index.html'
+            href='https://fredgbcn.space/make_it_move'
             target='_blank'
             rel='noreferrer'
           >
